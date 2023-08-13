@@ -12,8 +12,7 @@ The task is to build a machine learning model using the data provided in *train.
 * `timestamp`: The timestamp of the page visit, indicating the time of page load.
 * `gender`: The gender of the customer (the target variable).
 
-The path column corresponds to the URL path visited by the user. After training the model, the model will be used for *test.csv* to predict the gender of registered or non-registered customers.
-
+After training the model, the model will be used for *test.csv* to predict the gender of registered or non-registered customers.
 
 ## Approach
 
@@ -39,12 +38,10 @@ To build the gender prediction model, it will follow these steps:
 
 To replicate the model training and make predictions, follow these steps:
 
-1. Clone this repository to your local machine.
-2. Install the required dependencies as mentioned in *requirements.txt*.
-3. Open the Jupyter Notebook *gender_prediction.ipynb*.
-4. Execute the notebook cells sequentially to perform data preprocessing, train the model, and make predictions on the test data.
-5. The predictions for the test dataset will be stored in a file named *predictions.csv*.
+1. Open the Jupyter Notebook *gender_prediction.ipynb*.
+2. Execute the notebook cells sequentially to perform data preprocessing, train the model, and make predictions on the test data.
+3. The predictions for the test dataset will be stored in a file named *test_pred.csv*.
 
 ## Conclusion
 
-With this gender prediction model, the Fashion Shop owner can predicted gender of the customers, providing them with a personalized and enjoyable shopping experience.
+With this gender prediction model, the Fashion Shop owner can predict the gender of the customers, providing them with a personalized and enjoyable shopping experience.
