@@ -34,6 +34,8 @@ To build the gender prediction model, it will follow these steps:
 * *train.csv*: The training dataset containing `user_id`, `path`, `timestamp`, and `gender`.
 * *test.csv*: The test dataset containing `user_id`, `path`, and `timestamp` for which we need to predict the gender.
 
+(data sets are not provided with this repository)
+
 ## Instructions
 
 To replicate the model training and make predictions, follow these steps:
